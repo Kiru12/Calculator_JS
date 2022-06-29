@@ -8,11 +8,53 @@ a.underline {
 }
 
 
-input.center-block {
+
+button {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: large;
+
+}
+
+#button_resume {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#button_clear {
+    background-color:firebrick;
+    border-radius: 10px;
+}
+table {
     margin: auto;
+    width: 80%;
+    
+}
+
+tr {
+  
+   margin: auto;
+   
+    
+}
+
+
+/*#button_block {
+    margin: auto;
+    width: 75%;
+}
+*/
+
+#center-block {
+    margin: auto;
+    padding: 1%;
     width: 75%;
     display: block;
     pointer-events: none;
+    border-radius: 10px;
+    text-align: right;
 }
 
 body {
