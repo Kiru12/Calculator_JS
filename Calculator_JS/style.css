@@ -1,0 +1,20 @@
+a.underline {
+    font-family: Almendra, serif;
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: khaki;
+}
+
+
+input.center-block {
+    margin: auto;
+    width: 75%;
+    display: block;
+    pointer-events: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #1d2023, #1c2224, #1d2424, #202622, #252721);
+}
